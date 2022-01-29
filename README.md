@@ -6,7 +6,7 @@ def flatten(x,y):\
 			flatten(i,y)\
 		else:\
 			y.append(i)\
-	return y\
+	return y
 
 a=[[1,'a',['cat'],2],[[[3]],'dog'],4,5]\
 b=[]\
@@ -19,7 +19,7 @@ def reversetry(l):\
 		l.reverse()\
 		for i in l:\
 			reversetry(i)\
-	return l\
+	return l
 
 a = [[1, 2], [3, 4], [5, 6, 7]]\
 reversetry(a)\
