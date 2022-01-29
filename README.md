@@ -1,7 +1,7 @@
 # PythonTemelProje
 ## Flatten Function
-<p>def flatten(x,y):</p>
-	<p>for i in x:</p>
+def flatten(x,y):\
+	for i in x:\
 		<p>if isinstance(i,list):</p>
 			<p>flatten(i,y)</p>
 		else:
