@@ -1,4 +1,5 @@
-# PythonTemelProje
+# PythonTemelProje-Python Basic Projects
+A function that flattens a list and a function that reverses the elements in the given list has been created. 
 ## Flatten Function
 ```python
 def flatten(x,y):
