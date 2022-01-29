@@ -1,8 +1,8 @@
 # PythonTemelProje
 ## Flatten Function
->def flatten(x,y):\
-	>>for i in x:\
-		>>if isinstance(i,list):\
+def flatten(x,y):\
+	for i in x:\
+		if isinstance(i,list):\
 			flatten(i,y)\
 		else:\
 			y.append(i)\
