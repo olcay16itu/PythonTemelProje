@@ -8,12 +8,12 @@ def flatten(x,y):
 		else:
 			y.append(i)
 	return y
-``` 
-a=[[1,'a',['cat'],2],[[[3]],'dog'],4,5]\
-b=[]\
-flatten(a,b)\
+ 
+a=[[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+b=[]
+flatten(a,b)
 [1, 'a', 'cat', 2, 3, 'dog', 4, 5]
-
+```
 ## Reverse Function
 ```python
 def reversetry(l):
@@ -22,7 +22,8 @@ def reversetry(l):
 		for i in l:
 			reversetry(i)
 	return l
-```
-a = [[1, 2], [3, 4], [5, 6, 7]]\
-reversetry(a)\
+
+a = [[1, 2], [3, 4], [5, 6, 7]]
+reversetry(a)
 [[7, 6, 5], [4, 3], [2, 1]]
+```
